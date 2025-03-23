@@ -1,0 +1,35 @@
+mixin MyIcons {
+  static const analytics = 'assets/icons/analytics.svg';
+  static const analyzePrompt = 'assets/icons/analyze_prompt.svg';
+  static const back = 'assets/icons/back.svg';
+  static const bottom = 'assets/icons/bottom.svg';
+  static const calendar = 'assets/icons/calendar.svg';
+  static const checkup = 'assets/icons/checkup.svg';
+  static const choosePhoto = 'assets/icons/choose_photo.svg';
+  static const createPrompt = 'assets/icons/create_prompt.svg';
+  static const delete = 'assets/icons/delete.svg';
+  static const edit = 'assets/icons/edit.svg';
+  static const empty = 'assets/icons/empty.svg';
+  static const home = 'assets/icons/home.svg';
+  static const next = 'assets/icons/next.svg';
+  static const notification = 'assets/icons/notification.svg';
+  static const o1 = 'assets/icons/o1.svg';
+  static const o2 = 'assets/icons/o2.svg';
+  static const o3 = 'assets/icons/o3.svg';
+  static const o4 = 'assets/icons/o4.svg';
+  static const o5 = 'assets/icons/o5.svg';
+  static const premLabel = 'assets/icons/prem_label.svg';
+  static const premium = 'assets/icons/premium.svg';
+  static const privacy = 'assets/icons/privacy.svg';
+  static const prompts = 'assets/icons/prompts.svg';
+  static const restore = 'assets/icons/restore.svg';
+  static const settings = 'assets/icons/settings.png';
+  static const starEmpty = 'assets/icons/star_empty.svg';
+  static const starSmall = 'assets/icons/star_small.svg';
+  static const star = 'assets/icons/star.svg';
+  static const subs = 'assets/icons/subs.svg';
+  static const support = 'assets/icons/support.svg';
+  static const takePhoto = 'assets/icons/take_photo.svg';
+  static const trend = 'assets/icons/trend.svg';
+  static const type = 'assets/icons/type.svg';
+}
