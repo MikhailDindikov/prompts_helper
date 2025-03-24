@@ -21,7 +21,7 @@ class AppHelper {
 
   static Future<void> buyPrem() async {
     isPremiumLoading.value = true;
-    final result = await Apphud.purchase(productId: 'premium');
+    final result = await Apphud.purchase(productId: 'premium_access');
 
     isPremiumLoading.value = false;
     if (result.error == null) {
@@ -39,7 +39,7 @@ class AppHelper {
     isRestoreLoading.value = false;
     if (items.purchases.isNotEmpty) {
       final ids = items.purchases.map((e) => e.productId).toList();
-      if (ids.contains('premium')) {
+      if (ids.contains('premium_access')) {
         isPremium.value = true;
         prefs.setBool('isPremium', true);
         MySystems.showWarning('Purchase has been restored');
